@@ -4,4 +4,14 @@
 
 body {
     margin: 0 auto;
+    padding: 1em;
+}
+
+form {
+    label {
+        display: block;
+    }
+    input {
+        margin: 0.5em 0;
+    }
 }

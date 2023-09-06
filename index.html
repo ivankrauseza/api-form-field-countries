@@ -8,11 +8,16 @@
     <title>Country</title>
 </head>
 <body>
+    
+    <form>
+        <label for="countries">Where are you from? </label>
+        <input id="countries" type="text" placeholder="Country Name">
+        <div id="countriesMessage"></div>
+    </form>
 
-    <div class="ui-widget">
-        <label for="countries">Countries: </label>
-        <input id="countries" type="text">
-      </div>
+    <ul>
+        <li>If the entered value does not match the input is not valid. (assign error message)</li>
+    </ul>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
