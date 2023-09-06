@@ -1,4 +1,6 @@
-const data = [];
+
+// Filter the list of countries:
+var data = [];
 
 $.getJSON( "http://localhost:8000/assets/data/countries.json", function( result ) {
 
